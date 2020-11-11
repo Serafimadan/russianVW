@@ -1,0 +1,87 @@
+/*
+
+Stylesheet for slidorion
+
+ */
+#slidorion {
+	width: 768px;			/* Set to slidorion width. Is equal to #slider + #accordion width */
+	height: 400px;			/* Set to slidorion height. Is equal to #slider and #accordion height */
+	position: relative;
+	left: 50%;
+	margin-left: -384px;
+	padding: 10px;
+}
+
+.slider {
+	width: 50%;			/* Set to slider width */
+	height: 400px;			/* Set to slider height */
+	position: relative;
+	float: left;
+	overflow: hidden;		/* Hides the animations */
+}
+
+.slider-image {
+	position: relative;
+}
+
+.accordion {
+	width: 50%;			/* Set to accordion width */
+			/* Set to image height */
+	font-family: Verdana;
+	position: relative;
+	z-index:3;
+	float: left;
+}
+
+.accordion .header {
+	height: 36px;
+	color: #000000;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dcdcdc',GradientType=0 );
+	border: none;
+	border-top: 1px solid #ccc;
+	line-height: 77px;
+    height: 77px;
+}
+.slider-link:after{
+	position: absolute;
+    top: 35px;
+    right: 30px;
+    content: "";
+    background-image: url(../images/Vector.png);
+    width: 22px;
+    height: 12px;
+}
+
+.accordion .header a {
+	background: none;
+	padding: 8px 14px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+	font-family: VWTextRegular;
+    font-style: normal;
+	width: 100%;
+    position: relative;
+}
+
+.accordion .header a:hover {
+	background: #ededed00;
+	cursor: pointer;
+}
+
+.accordion .header a.active {
+	border-bottom: none;
+	color: rgb(51, 51, 51);
+}
+
+.accordion .content {
+	height: 257px;			/* This height needs to be changed as it depends on the accordion height and number of tabs */
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0;
+	padding: 16px;
+	border: none;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#ffffff',GradientType=0 );
+	overflow:auto;
+}

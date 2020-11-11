@@ -1,0 +1,30 @@
+/* fonts */
+
+@font-face {
+  font-family: 'VWHeadBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/VWHeadBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'VWHeadRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/VWHeadRegular.otf) format("opentype");
+}
+
+
+
+@font-face {
+  font-family: 'VWTextBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/VWTextBold.otf) format("opentype");
+}
+@font-face {
+  font-family: 'VWTextRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/VWTextRegular.otf) format("opentype");
+}
